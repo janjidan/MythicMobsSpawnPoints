@@ -1,0 +1,29 @@
+#插件配置文件
+options:
+  spawn-list:
+    #默认配置
+    default:
+      #计数衰减时间
+      #当玩家在指定时间( 20s )内没有杀死怪物，则计数器会减少
+      ticksSinceLastKill: 20
+      #lastKillTime和currentTime不要动
+      lastKillTime: 0
+      currentTime: 0
+      #计数器
+      counters: 10
+      #当前计数器currentcounter
+      #当计数器的值等于指定值(counters)时，spawnpoints所记录的刷怪点的怪物都会被立即刷新，计数器数值归零
+      currentcounter: 0
+      #刷怪点
+      #名字和mythicmobs所创建的刷怪点id对应
+      #spawnpoints所记录的刷怪点的怪物都会被立即刷新
+      spawnpoints:
+      - 1
+      - 2
+    gamma:
+      ticksSinceLastKill: 20
+      lastKillTime: 0
+      currentTime: 0
+      counters: 10
+      currentcounter: 0
+      spawnpoints: [ ]
