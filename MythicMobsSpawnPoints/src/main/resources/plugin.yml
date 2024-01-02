@@ -1,0 +1,13 @@
+name: MythicMobsSpawnPoints
+version: '${project.version}'
+main: com.janjidan.mythicmobsspawnpoints.MythicMobsSpawnPoints
+api-version: '1.20'
+depend:
+  - MythicMobs
+  - MythicLib
+commands:
+  mythicmobsspawnpoints:
+    usage: /<command> <subcommand> [args...]
+    permission: op
+    aliases:
+      - mmsp
